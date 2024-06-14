@@ -40,3 +40,22 @@ Nesse projeto, a Boticário solicitou à equipe de Red Team a execução de um t
 
 ![VirtualBox Badge](https://img.shields.io/badge/VirtualBox-183A61?logo=virtualbox&logoColor=fff&style=for-the-badge) ![Kali Linux Badge](https://img.shields.io/badge/Kali%20Linux-557C94?logo=kalilinux&logoColor=fff&style=for-the-badge) ![Burp Suite Badge](https://img.shields.io/badge/Burp%20Suite-F63?logo=burpsuite&logoColor=fff&style=for-the-badge) ![Metasploit Badge](https://img.shields.io/badge/Metasploit-2596CD?logo=metasploit&logoColor=fff&style=for-the-badge)
 
+## Vulnerabilidades
+
+### Arquivo “security.txt” faltando
+
+**Descrição do risco:** O arquivo "security.txt" é crucial porque oferece um canal designado para relatar vulnerabilidades e problemas de segurança. No entanto, a ausência deste arquivo não representa um risco específico imediato. 
+
+**Recomendação:** Recomenda-se a implementação do arquivo "security.txt" de acordo com o [padrão](https://securitytxt.org/), para permitir que pesquisadores ou usuários relatem quaisquer problemas de segurança que encontrarem. Isso melhora os mecanismos de defesa do servidor, facilitando a comunicação e a resposta a potenciais ameaças.
+
+### Falta de bloqueio a múltiplas tentativas de login
+
+**Descrição do risco:** Se um site não bloqueia o acesso após várias tentativas de senha incorretas, ele fica vulnerável a ataques de força bruta. Nesse tipo de ataque, um invasor pode tentar inúmeras combinações até encontrar a correta, resultando no comprometimento de contas, exposição de dados pessoais e danos à reputação.
+
+**Recomendação:** Recomenda-se a implementação de bloqueio temporário da conta após um número específico de tentativas falhas. Outras medidas incluem o uso de CAPTCHA, notificação ao usuário sobre tentativas de login falhas, aumento progressivo do tempo de bloqueio, monitoramento e análise de logs de tentativas de login, e a implementação de autenticação multifator (MFA).
+
+## Conclusão
+
+O projeto final do Bootcamp em Segurança da Informação do Programa Desenvolve Boticário permitiu a aplicação prática dos conhecimentos adquiridos ao longo de um semestre sobre segurança cibernética. Durante a análise, foram identificadas apenas vulnerabilidades pouco significativas no site do Boticário, como a ausência do arquivo "security.txt" e a falta de bloqueio contra múltiplas tentativas de login, evidenciando o comprometimento da marca com a privacidade dos usuários. Embora as recomendações tenham sido mínimas, elas ressaltam a importância de realizar testes regulares de segurança para proteger dados sensíveis e preservar a integridade e a reputação da aplicação web de forma integral.
+
+
