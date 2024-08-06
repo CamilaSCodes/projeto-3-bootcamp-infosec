@@ -43,7 +43,7 @@ Assim, você deverá conseguir acessar a conta de Bender, mesmo que tenha utiliz
 
 ![Bender](https://github.com/CamilaSCodes/projeto-3-bootcamp-infosec/blob/main/imagens-vulnerabilidades/Bender.png)
 
-### 3. Esquema Do Banco De Dados (Database Schema ⭐⭐⭐)
+### 3. Esquema do Banco de Dados (Database Schema ⭐⭐⭐)
 
 No Kali Linux, abra o **Burp Suite** e, no menu **Proxy**, clique em `Open browser`. Em seguida, inicie uma **Pesquisa** no Juice Shop.
 
