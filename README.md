@@ -40,17 +40,17 @@ http://localhost:3000/#/
 
 Cada categoria contém uma vulnerabilidade e seus respectivos desafios, juntamente com instruções para solucioná-los e recomendações de correção. **Acesse-as através dos links abaixo**.
 1. [XSS](xss)
-2. [Exposição de dados sensíveis](exposição-de-dados-sensíveis)
-3. [Validação imprópria de input](validação-imprópria-de-input)
+2. [Exposição De Dados Sensíveis](exposição-de-dados-sensíveis)
+3. [Validação Imprópria De Input](validação-imprópria-de-input)
 4. [SQL Injection](sql-injection) 
-5. [Controle de acesso](controle-de-acesso)
-6. [Redirecionamento não validado](redirecionamento-não-validado) 
-7. [Componentes vulneráveis](componentes-vulneráveis) 
-8. [Autenticação danificada](autenticação-danificada) 
-9. [Segurança por obscurantismo](segurança-por-obscurantismo) 
-10. [Anti-automação danificada](anti-automação-danificada) 
-11. [Configuração incorreta de segurança](configuração-incorreta-de-segurança)
-12. [Problemas criptográficos](problemas-criptográficos)
+5. [Controle De Acesso](controle-de-acesso)
+6. [Redirecionamento Não Validado](redirecionamento-não-validado) 
+7. [Componentes Vulneráveis](componentes-vulneráveis) 
+8. [Autenticação Danificada](autenticação-danificada) 
+9. [Segurança Por Obscurantismo](segurança-por-obscurantismo) 
+10. [Anti-automação Danificada](anti-automação-danificada) 
+11. [Configuração Incorreta De Segurança](configuração-incorreta-de-segurança)
+12. [Problemas Criptográficos](problemas-criptográficos)
 
 ### Tecnologias
 
