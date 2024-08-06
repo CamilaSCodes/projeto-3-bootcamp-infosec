@@ -40,16 +40,16 @@ http://localhost:3000/#/
 
 Cada categoria contém uma vulnerabilidade e seus respectivos desafios, juntamente com instruções para solucioná-los e recomendações de correção. **Acesse-as através dos links abaixo**.
 1. [XSS](xss)
-2. [Exposição De Dados Sensíveis](exposição-de-dados-sensíveis)
-3. [Validação Imprópria De Input](validação-imprópria-de-input)
+2. [Exposição de Dados Sensíveis](exposição-de-dados-sensíveis)
+3. [Validação Imprópria de Input](validação-imprópria-de-input)
 4. [SQL Injection](sql-injection) 
-5. [Controle De Acesso](controle-de-acesso)
+5. [Controle de Acesso](controle-de-acesso)
 6. [Redirecionamento Não Validado](redirecionamento-não-validado) 
 7. [Componentes Vulneráveis](componentes-vulneráveis) 
 8. [Autenticação Danificada](autenticação-danificada) 
-9. [Segurança Por Obscurantismo](segurança-por-obscurantismo) 
+9. [Segurança por Obscurantismo](segurança-por-obscurantismo) 
 10. [Anti-automação Danificada](anti-automação-danificada) 
-11. [Configuração Incorreta De Segurança](configuração-incorreta-de-segurança)
+11. [Configuração Incorreta de Segurança](configuração-incorreta-de-segurança)
 12. [Problemas Criptográficos](problemas-criptográficos)
 
 ### Tecnologias
